@@ -1,0 +1,53 @@
+:root {
+    --dark-blue: #5D576B;
+    --light-blue: #8884FF;
+    --white: #FFFFFF
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Good-Times;
+    src: url(/fonts/good\ times\ rg.otf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid red; */
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--dark-blue);
+    height: 75px;
+}
+
+nav h1 {
+    color: var(--white);
+    font-family: Good-Times;
+}
+
+ul {
+    display: flex;
+    gap: 32px
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: var(--white);
+}
+
