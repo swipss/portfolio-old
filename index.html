@@ -17,9 +17,9 @@
             <nav>
                 <h1>Sten Vassiljev</h1>
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Work</a></li>
+                    <li><a href="#secondPage">About</a></li>
+                    <li><a href="#thirdPage">Projects</a></li>
+                    <li><a href="#fourthPage">Work</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
@@ -37,7 +37,7 @@
         </div>
         <div class="section about">
                 <div class="text">
-                    <h1>ABOUT</h1>
+                    <h1 style="color: #5D576B">ABOUT</h1>
                     <p>Hi! My name is Sten Vassiljev. I am 18 years old and I live in Estonia. I am currently studying
                         information technology in Tartu Tamme Gümnaasium.
                         <br>
@@ -64,15 +64,93 @@
                 </div>
         </div>
         <div class="section">
-            <h1>Projects</h1>
+            <div class="projects">
+                <div class="title">
+                    <h1>PROJECTS</h1>
+                    <p>Client projects and other professional work</p>
+                </div>
+                <div class="container">
+                    <a href="https://tammegymnaasium.ee/luunjasport/" id="#image"><img src="/images/lohkva.png" alt="lohkva spordihall"></a>
+                    <div class="description">
+                        <h3>Lohkva Spordihall</h3>
+                        <p>A simple website for a sport club.</p>
+                        <button type="button"><a href="https://tammegymnaasium.ee/luunjasport/">Visit Site</a></button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="section">
+                <div class="work-container">
+                    <div class="work-title">
+                        <h1>WORK</h1>
+                        <p>Some personal projects including page layouts, tools and apps.</p>
+                    </div>
+                    <div class="pages-container">
+                        <div class="page">
+                            <img src="/images/calculator.png" alt="calculator">
+                            <div class="link">
+                                <h3>A simple calculator.</h3>
+                                <a href="https://github.com/swipss/calculator"><img src="/images/github.png" alt="github"></a>
+                            </div>
+                        </div>
+                        <div class="page">
+                            <img src="/images/etch.png" alt="etch-a-sketch">
+                            <div class="link">
+                                <h3>Online etch-a-sketch!</h3>
+                                <a href="https://github.com/swipss/etch-a-sketch"><img src="/images/github.png" alt="github"></a>
+                            </div>
+                        </div>
+                        <div class="page">
+                            <img src="/images/landing.png" alt="landing-page">
+                            <div class="link">
+                                <h3>A landing page layout.</h3>
+                                <a href="https://github.com/swipss/Landing-Page"><img src="/images/github.png" alt="github"></a>
+                            </div>
+                        </div>
+                        <div class="page">
+                            <img src="/images/flexbox.png" alt="flexbox">
+                            <div class="link">
+                                <h3>Flexbox layout.</h3>
+                                <a href="https://github.com/swipss/Flexbox-Project"><img src="/images/github.png" alt="github"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pages-container">
+                        <div class="app">
+                            <img src="/images/uber2.png" alt="uber" >
+                            <div class="link">
+                                <h3>Uber Eats App</h3>
+                                <a href="https://github.com/swipss/UberEatsUser"><img src="/images/github.png" alt="github"></a>
+                            </div>
+                        </div>
+                        <div class="app">
+                            <img src="/images/expense.png" alt="expense-tracker" >
+                            <div class="link">
+                                <h3>Expense Tracker</h3>
+                                <a href="https://github.com/swipss/Expense-Tracker-Project-New"><img src="/images/github.png" alt="github"></a>
+                            </div>
+                        </div>
+                        <div class="app">
+                            <img src="/images/cryptotracker.png" alt="crypto-tracker" >
+                            <div class="link">
+                                <h3>Crypto App</h3>
+                                <a href="https://github.com/swipss/CryptoTracker"><img src="/images/github.png" alt="github"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    <button type="button" id="back">To Top</button>
+
     </div>
 
-    
+    <script src="script.js"></script>
     <script type="text/javascript" src="/node_modules/fullpage.js/dist/fullpage.js"></script>
     <script type="text/javascript">
         var myFullpage = new fullpage('#fullpage', {
-            sectionsColor: ['#5D576B', '#white', '#5D576B', 'whitesmoke', '#ccddff']
+            sectionsColor: ['#5D576B', 'white', '#5D576B', 'white', '#ccddff'],
+            anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage']
         });
     </script>
 </body>
