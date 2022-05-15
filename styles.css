@@ -242,7 +242,10 @@ button a {
     width: 400px;
     border-radius: 10px;
     box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.1);
+    backface-visibility: hidden;
 }
+
+
 
 
 .app img {
@@ -265,7 +268,7 @@ button a {
 }
 
 .contact-container {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -273,9 +276,9 @@ button a {
 
 .title-container {
     width: 50%;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .title-container h1,
@@ -336,4 +339,8 @@ label {
 
 .form-row button {
     width: 30%
+}
+
+textarea {
+    font-family: Poppins;
 }
