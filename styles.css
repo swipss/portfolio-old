@@ -49,19 +49,27 @@ li {
 li a {
     text-decoration: none;
     color: var(--white);
+    transition: all .3s ease;
 }
+
+li a:hover {
+    color: var(--light-blue);
+}
+
+
 header {
     background-color: var(--dark-blue);
-    padding: 50px 0;
+    height: 100vh;
+    display: flex;
 }
 
 .header {
-    width: 1100px;
-    margin: 0 auto;
+    max-width: 1100px;
     display: flex;
     background-color: var(--dark-blue);
     justify-content: space-between;
     align-items: center;
+    margin: auto;
 }
 
 .header img {
