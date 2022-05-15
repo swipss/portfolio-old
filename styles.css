@@ -112,3 +112,48 @@ header {
     background: limegreen;
     transform: translateY(-5px);
 }
+
+div.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.text {
+    width: 60%;
+    line-height: 2rem;
+}
+.text h1 {
+    font-size: 3rem;
+}
+
+.text p {
+    margin-top: 20px;
+}
+.text + div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.tools img {
+    width: 50px;
+    margin-left: 5px;
+}
+
+.about h3 {
+    font-size: 2rem;
+}
+.tools {
+    margin-top: 10px;
+}
+
+
+
+
