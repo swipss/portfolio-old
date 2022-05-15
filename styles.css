@@ -263,3 +263,77 @@ button a {
     align-items: center;
     margin-top: 10px;
 }
+
+.contact-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.title-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-container h1,
+.title-container p {
+    color: var(--white);
+}
+
+.title-container h1 {
+    font-size: 3rem;
+}
+
+.form {
+    width: 50%;
+
+}
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"] {
+    padding: 7px;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 14px;
+   
+}
+
+.form-row input[type="text"]:invalid,
+.form-row input[type="email"]:invalid {
+    border: 1px solid #d55c5f;
+    color: #d55c5f;
+    box-shadow: none;
+}
+
+
+
+
+label {
+    color: var(--white);
+    margin-bottom: 15px;
+}
+
+.form-row textarea {
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+}
+
+.form-row button {
+    width: 30%
+}

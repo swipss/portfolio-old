@@ -1,3 +1,3 @@
  document.getElementById("back").onclick = function () {
-        location.href = "#firstPage";
+        location.href = "#header";
  };
