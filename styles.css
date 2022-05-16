@@ -6,11 +6,11 @@
 
 @font-face {
     font-family: Poppins;
-    src: url(Poppins-Regular.ttf);
+    src: url(/src/fonts/Poppins-Regular.ttf);
 }
 @font-face {
     font-family: Good-Times;
-    src: url(good\ times\ rg.otf);
+    src: url(src/fonts/good\ times\ rg.otf);
 }
 
 * {
