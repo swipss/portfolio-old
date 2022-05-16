@@ -6,6 +6,7 @@ let work = document.getElementById('work-text')
 let contact = document.getElementById('contact-text')
 let i = 0
 let speed = 100
+//TODO: create a function that takes in an element and text, then typewrites it to the DOM
 window.addEventListener('hashchange', function() {
        let hash = location.hash
        if (hash === "#about") {
