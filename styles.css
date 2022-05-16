@@ -6,11 +6,11 @@
 
 @font-face {
     font-family: Poppins;
-    src: url(/fonts/Poppins-Regular.ttf);
+    src: url(Poppins-Regular.ttf);
 }
 @font-face {
     font-family: Good-Times;
-    src: url(/fonts/good\ times\ rg.otf);
+    src: url(good\ times\ rg.otf);
 }
 
 * {
@@ -321,6 +321,7 @@ button a {
     color: #d55c5f;
     box-shadow: none;
 }
+
 
 
 
